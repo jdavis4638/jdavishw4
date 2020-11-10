@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>Homework 4</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark">
+
+    <ul class="navbar-nav">
+        <li class="nav-item">
+
+            <a class="nav-link" href="..\Resources\myPage_bootstrap.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="..\Resources\Projects.html">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="C:\Dev\HW4\HTML\home.html">FlickrAPI</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+        <a class="navbar-brand" href="https://github.com/jdavis4638">
+            <img src="Images/github-512.webp" alt="Logo" style="width:40px;">
+        </a>
+    </ul>
+</nav>
+<form name = "myForm" id = "inputform">
+    
+    <select name="numbers" id="select_nums">
+      <option value="30">30</option>
+      <option value="50">50</option>
+      <option value="70">70</option>
+    </select>
+
+    <input type="text" id ="textentry" name = "text_entry" value = "test">
+
+    <button type="submit">Submit</button>
+    <br><br>
+    
+  </form>
+
+  
+</body>
+<script src="../js/main.js"></script>
+</html>
